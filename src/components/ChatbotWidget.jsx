@@ -116,7 +116,7 @@ const ChatbotWidget = () => {
       )}
       <button
         onClick={toggleWidget}
-        className="bg-blue-500 hover:bg-blue-600 text-white rounded-full p-3 shadow-lg transition-all duration-300 ease-in-out transform hover:scale-110"
+        className="bg-[#f9b67f] hover:bg-blue-600 text-white rounded-full p-3 shadow-lg transition-all duration-300 ease-in-out transform hover:scale-110"
       >
         <MessageCircle size={24} />
       </button>
