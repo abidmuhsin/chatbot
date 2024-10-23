@@ -6,6 +6,7 @@ import Layanan from './section/Layanan.jsx'
 import Produk from './section/Produk.jsx'
 import RencanaTerbit from './section/RencanaTerbit.jsx'
 import ChatbotWidget from './components/ChatbotWidget.jsx'
+import ArticlePage from './section/ArticlePage.jsx'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
     <Produk></Produk>
     <RencanaTerbit></RencanaTerbit>
     <ChatbotWidget></ChatbotWidget>
+    <ArticlePage></ArticlePage>
 
     </>
   )
