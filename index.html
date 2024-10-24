@@ -5,9 +5,26 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
+    <style>
+      /* Dialogflow Messenger is hidden by default */
+      df-messenger {
+        display: none; /* Hide the messenger by default */
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        z-index: 9999;
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+      intent="WELCOME"
+      chat-title="BPSKotaPalu"
+      agent-id="6f4826fb-2662-469a-bc11-a54aa8fcbfe9"
+      language-code="id"
+    ></df-messenger>
   </body>
 </html>

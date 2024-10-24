@@ -5,8 +5,9 @@ import InformasiPublik from './section/InformasiPublik.jsx'
 import Layanan from './section/Layanan.jsx'
 import Produk from './section/Produk.jsx'
 import RencanaTerbit from './section/RencanaTerbit.jsx'
-import ChatbotWidget from './components/ChatbotWidget.jsx'
 import ArticlePage from './section/ArticlePage.jsx'
+// import ChatBot from './components/Chatbot.jsx'
+import ChatbotWidget from './components/ChatbotWidget.jsx'
 
 function App() {
 
@@ -18,8 +19,10 @@ function App() {
     <Layanan></Layanan>
     <Produk></Produk>
     <RencanaTerbit></RencanaTerbit>
-    <ChatbotWidget></ChatbotWidget>
     <ArticlePage></ArticlePage>
+    {/* <ChatBot></ChatBot> */}
+    <ChatbotWidget></ChatbotWidget>
+
 
     </>
   )
